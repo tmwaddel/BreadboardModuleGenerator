@@ -2,7 +2,7 @@ totalPins = 30 # Minimum 4 pins (2x2)
 moduleWidth = 16 # Tenths of an inch
 
 for pinCount in range(4, totalPins+1, 2):
-	drillSize = 0.75
+	drillSize = 1
 
 	numPad = pinCount
 	footprintOffset = 0
